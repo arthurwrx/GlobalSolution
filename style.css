@@ -7,3 +7,57 @@
 body{
     font-family: sans-serif;
 }
+
+.container{
+    width: 100%;
+    padding-right: var(--spacing-default);
+    padding-left: var(--spacing-default);
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid var(--color-main)
+}
+
+.itens-header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+    .icon img{
+        max-width: 100%;
+        width: 100px;
+        height: auto;
+        margin-left: 350px;
+    }
+        .menu ul{
+            margin: 0;
+            padding-left: 0;
+            list-style: none;
+        }
+            .menu ul li{
+                display: inline-block;
+                position: relative;
+            }
+                .menu ul li > a{
+                    display: block;
+                    font-size: var(--spacing-default);
+                    letter-spacing: 0;
+                    font-weight: 600;
+                    color: #20212b;
+                    padding: 0 var(--spacing-default);
+                    height: 80px;
+                    line-height: 80px;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                    .button-menu button{
+                        font-size: var(--spacing-default);
+                        background-color: var(--color-buttons);
+                        border: 1px solid var(--color-border-button);
+                        border-radius: var(--spacing-small);
+                        width: 150px;
+                        height: 55px;
+                        margin-right: 350px;
+                        cursor: pointer;
+                    }
