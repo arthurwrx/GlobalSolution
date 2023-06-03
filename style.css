@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-main: white;
+    --color-title: white;
+
+    --color-link-header: #20212b;
+    
+    --color-buttons: rgb(227, 227, 0);
+    --color-border-button: yellow;
+    --color-hand-carousel: black;
+    
+    --color-content: #e4e4e4;
+    --color-word-content: #686868;
+    
+    --color-backgroud-warning: rgb(155, 63, 63);
+    --color-title-warning: white;
+    --color-word-warning: rgba(255, 255, 255, 0.759);
+
+    --color-backgroud-certificate: rgb(79, 165, 79);
+    --color-word-certificate: white;
+
+    --color-backgroud-footer: #202020;
+    --color-word-footer: #b5b5b5;
+    --color-link-footer: rgb(93, 0, 93);
+
+    --spacing-xsmall: 5px;
+    --spacing-small: 10px;
+    --spacing-default: 15px;
+    --spacing-medium: 20px;
+    --spacing-large: 30px;
+    --spacing-xlarge: 50px;
+}
+
 body{
     font-family: sans-serif;
 }
