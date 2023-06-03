@@ -186,4 +186,28 @@ body{
     font-size: 15px;
 }
 
+.footer-redes{
+    margin-left: 100px;
+    padding-top: 70px;
+}
+    .footer-redes ul{
+        list-style: none;
+        font-size: 18px;
+        color: white;
+    }
+        .footer-redes ul li{
+            padding-top: 5px;
+        }
+            .footer-redes button{
+                background-color: #202020;
+                border: 0;
+                cursor: pointer;
+                margin-top: 6px;
+            }
+                .footer-redes button img{
+                    max-width: 100%;
+                    width: 30px;
+                }
+
+
 
