@@ -209,5 +209,29 @@ body{
                     width: 30px;
                 }
 
+.footer-contatos{
+    margin-left: 50px;
+    padding-top: 70px;
+}
+    .lista-contatos {
+        font-size: 18px;
+        color: white;
+    }
+        .lista-contatos li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-top: 8px;
+        }
+            .lista-contatos li img {
+            max-width: 100%;
+            width: 30px;
+            margin-right: 10px;
+            }
+                .texto-contatos {
+                font-size: 15px;
+                color: #b5b5b5;
+                }
+
 
 
