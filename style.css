@@ -132,4 +132,11 @@ body{
                 padding-left: 430px;
                 padding-right: 430px;
             }
-        
+            .informacao-link p{
+                padding-top: 20px;
+            }
+                .informacao-link a{
+                    text-decoration: none;
+                    color: rgb(31, 159, 19);
+                }
+                
