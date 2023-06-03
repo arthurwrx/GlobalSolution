@@ -106,21 +106,21 @@ body{
                         right: 10px;
                     }
 
-.primeira-informacao{
+.agricultura-sustentavel{
     width: 100%;
     background-color: #e4e4e4;
     display: flex;
     height: 600px;
     padding-top: 50px;
 }
-    .informacao-img img{
+    .agricultura-img img{
         max-width: 100%;
         margin-left: 500px;
         float: left;
         height: 500px;
         border: 2px solid #686868;
     }
-        .informacao-text h1{
+        .agricultura-text h1{
             font-size: 32px;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
@@ -130,7 +130,7 @@ body{
             padding-left: 430px;
             padding-right: 430px;
         }
-            .informacao-text p{
+            .agricultura-text p{
                 font-size: 23px;
                 font-family: 'Lato', sans-serif;
                 text-align: center;
@@ -138,10 +138,10 @@ body{
                 padding-left: 430px;
                 padding-right: 430px;
             }
-            .informacao-link p{
+            .agricultura-link p{
                 padding-top: 20px;
             }
-                .informacao-link a{
+                .agricultura-link a{
                     text-decoration: none;
                     color: rgb(31, 159, 19);
                 }
@@ -181,6 +181,50 @@ body{
                                 font-size: 14px;
                                 color: rgba(255, 255, 255, 0.759);
                                 line-height: 1;
+                            }
+
+.inteligencia-artificial{
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    height: 600px;
+    padding-top: 50px;
+}
+    .artificial-img img{
+        max-width: 100%;
+        margin-left: 500px;
+        float: right;
+        height: 500px;
+        border: 2px solid #686868;
+    }
+        .artificial-img{
+            margin-right: 450px;
+        }
+            .artificial-text{
+                float: left;
+                padding-top: 120px;
+            }
+                .artificial-text h1{
+                    font-size: 32px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: black;
+                    text-align: center;
+                    padding-bottom: 30px;
+                    margin-left: 450px;
+                }
+                    .artificial-text p{
+                        font-size: 23px;
+                        font-family: 'Lato', sans-serif;
+                        text-align: center;
+                        color: #484848;
+                        margin-left: 470px;
+                    }
+                        .artificial-link p{
+                            padding-top: 20px;
+                        }
+                            .artificial-link a{
+                                text-decoration: none;
+                                color: rgb(31, 159, 19);
                             }
 
 .footer-informacoes{
