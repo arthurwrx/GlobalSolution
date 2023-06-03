@@ -140,3 +140,39 @@ body{
                     color: rgb(31, 159, 19);
                 }
                 
+.section-estatisticas{
+    background-color: rgb(155, 63, 63);
+    color: white;
+    height: 150px;
+    width: 100%;
+    font-size: 20px;
+}
+    .menu-estatisticas{
+        display: flex;
+        text-align: center;
+        padding: 50px 0 0 550px;
+    }
+        .menu-estatisticas h1{
+            font-size: 25px;
+        }
+            .primeira-estatistica{
+                padding-right: 70px;
+            }
+                .primeira-estatistica p{
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.759);
+                    line-height: 1;
+                }
+                    .segunda-estatistica{
+                        padding-right: 70px;
+                    }
+                        .segunda-estatistica p{
+                            font-size: 14px;
+                            color: rgba(255, 255, 255, 0.759);
+                            line-height: 1;
+                        }
+                            .terceira-estatistica p{
+                                font-size: 14px;
+                                color: rgba(255, 255, 255, 0.759);
+                                line-height: 1;
+                            }
