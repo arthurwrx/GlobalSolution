@@ -180,7 +180,7 @@ body{
 .footer-informacoes{
     background-color: #202020;
     display: flex;
-    height: 300px;
+    height: 350px;
     font-family: sans-serif;
     width: 100%;
     font-size: 15px;
@@ -251,4 +251,14 @@ body{
             padding-top: 5px;
         }
 
+.footer-texto{
+    margin-left: auto;
+    margin-right: 50px;
+    padding-top: 35px;
+    color: #b5b5b5;
+    white-space: pre-line;   
+}
+    .footer-texto a{
+        cursor: pointer;
+    }
 
