@@ -180,7 +180,7 @@ body{
 .footer-informacoes{
     background-color: #202020;
     display: flex;
-    height: 350px;
+    height: 250px;
     font-family: sans-serif;
     width: 100%;
     font-size: 15px;
@@ -260,5 +260,31 @@ body{
 }
     .footer-texto a{
         cursor: pointer;
+        text-align: center;
     }
 
+.icon-fim{
+    background-color: #202020;
+    width: 100%;
+    padding: 10px;
+}
+    .icon-fim img{
+        max-width: 100%;
+        width: 60px;
+        height: auto;
+        margin-left: 49%;
+        border: 2px solid white;
+        border-radius: 100%;
+        padding: 2px;
+    }
+        .icon-fim .footerInfo{
+            margin-top: 30px;
+        }
+                .icon-fim .nomes, .footerInfo{
+                    margin-left: 90px;
+                    color: #b5b5b5;
+                }
+                    .icon-fim .footerInfo{
+                        margin-bottom: 5px;
+                        color: white;
+                    }
