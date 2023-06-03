@@ -42,8 +42,8 @@ body{
 
 .container{
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: var(--spacing-default);
+    padding-left: var(--spacing-default);
     margin-right: auto;
     margin-left: auto;
 }
@@ -72,21 +72,21 @@ body{
             }
                 .menu ul li > a{
                     display: block;
-                    font-size:15px;
+                    font-size:var(--spacing-default);
                     letter-spacing: 0;
                     font-weight: 600;
                     color: #20212b;
-                    padding: 0 15px;
+                    padding: 0 var(--spacing-default);
                     height: 80px;
                     line-height: 80px;
                     text-decoration: none;
                     cursor: pointer;
                 }
                     .button-menu button{
-                        font-size: 15px;
+                        font-size: var(--spacing-default);
                         background-color: rgb(216, 216, 0);
                         border: 1px solid yellow;
-                        border-radius: 10px;
+                        border-radius: var(--spacing-small);
                         width: 150px;
                         height: 55px;
                         margin-right: 350px;
@@ -126,16 +126,16 @@ body{
                 background-color: rgb(216, 216, 0);
                 border-radius: 100%;
                 color: black;
-                padding: 10px;
+                padding: var(--spacing-small);
                 cursor: pointer;
             }
 
                 .carousel-prev {
-                    left: 10px;
+                    left: var(--spacing-small);
                 }
 
                     .carousel-next {
-                        right: 10px;
+                        right: var(--spacing-small);
                     }
 
 .agricultura-sustentavel{
@@ -143,7 +143,7 @@ body{
     background-color: #e4e4e4;
     display: flex;
     height: 600px;
-    padding-top: 50px;
+    padding-top: var(--spacing-xlarge);
 }
     .agricultura-img img{
         max-width: 100%;
@@ -158,7 +158,7 @@ body{
             text-align: center;
             color: black;
             padding-top: 120px;
-            padding-bottom: 30px;
+            padding-bottom: var(--spacing-large);
             padding-left: 430px;
             padding-right: 430px;
         }
@@ -171,7 +171,7 @@ body{
                 padding-right: 430px;
             }
             .agricultura-link p{
-                padding-top: 20px;
+                padding-top: var(--spacing-medium);
             }
                 .agricultura-link a{
                     text-decoration: none;
@@ -183,12 +183,12 @@ body{
     color: white;
     height: 150px;
     width: 100%;
-    font-size: 20px;
+    font-size: var(--spacing-medium);
 }
     .menu-estatisticas{
         display: flex;
         text-align: center;
-        padding: 50px 0 0 550px;
+        padding: var(--spacing-xlarge) 0 0 550px;
     }
         .menu-estatisticas h1{
             font-size: 25px;
@@ -220,7 +220,7 @@ body{
     background-color: #e4e4e4;
     display: flex;
     height: 600px;
-    padding-top: 50px;
+    padding-top: var(--spacing-xlarge);
 }
     .artificial-img img{
         max-width: 100%;
@@ -241,7 +241,7 @@ body{
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     color: black;
                     text-align: center;
-                    padding-bottom: 30px;
+                    padding-bottom: var(--spacing-large);
                     margin-left: 450px;
                 }
                     .artificial-text p{
@@ -252,7 +252,7 @@ body{
                         margin-left: 470px;
                     }
                         .artificial-link p{
-                            padding-top: 20px;
+                            padding-top: var(--spacing-medium);
                         }
                             .artificial-link a{
                                 text-decoration: none;
@@ -265,7 +265,7 @@ body{
     height: 250px;
     font-family: sans-serif;
     width: 100%;
-    font-size: 15px;
+    font-size: var(--spacing-default);
 }
 
 .footer-redes{
@@ -278,7 +278,7 @@ body{
         color: white;
     }
         .footer-redes ul li{
-            padding-top: 5px;
+            padding-top: var(--spacing-xsmall);
         }
             .footer-redes button{
                 background-color: #202020;
@@ -288,11 +288,11 @@ body{
             }
                 .footer-redes button img{
                     max-width: 100%;
-                    width: 30px;
+                    width: var(--spacing-large);
                 }
 
 .footer-contatos{
-    margin-left: 50px;
+    margin-left: var(--spacing-xlarge);
     padding-top: 70px;
 }
     .lista-contatos {
@@ -302,21 +302,21 @@ body{
         .lista-contatos li {
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: var(--spacing-small);
         padding-top: 8px;
         }
             .lista-contatos li img {
             max-width: 100%;
-            width: 30px;
-            margin-right: 10px;
+            width: var(--spacing-large);
+            margin-right: var(--spacing-small);
             }
                 .texto-contatos {
-                font-size: 15px;
+                font-size: var(--spacing-default);
                 color: #b5b5b5;
                 }
 
 .footer-links{
-    margin-left: 50px;
+    margin-left: var(--spacing-xlarge);
     padding-top: 70px;
     width: 180px;
 }
@@ -329,38 +329,38 @@ body{
             color: #b5b5b5;
             margin-top: 6px;
             cursor: pointer;
-            font-size: 15px;
-            padding-top: 5px;
+            font-size: var(--spacing-default);
+            padding-top: var(--spacing-xsmall);
         }
 
 .footer-texto{
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: var(--spacing-xlarge);
     padding-top: 35px;
     color: #b5b5b5;
     white-space: pre-line;   
 }
     .link-texto{
         text-align: center;
-        margin-top: 10px;
+        margin-top: var(--spacing-small);
     }
         .link-texto button{
             background-color: rgb(31, 159, 19);
-            padding: 10px;
-            border-radius: 5px;
+            padding: var(--spacing-small);
+            border-radius: var(--spacing-xsmall);
             border: 0;
             cursor: pointer;
         }
             .link-texto a{
                 color: white;
                 text-decoration: none;
-                height: 50px;
+                height: var(--spacing-xlarge);
             }
 
 .icon-fim{
     background-color: #202020;
     width: 100%;
-    padding: 10px;
+    padding: var(--spacing-small);
 }
     .icon-fim img{
         max-width: 100%;
@@ -372,13 +372,13 @@ body{
         padding: 2px;
     }
         .icon-fim .footerInfo{
-            margin-top: 30px;
+            margin-top: var(--spacing-large);
         }
                 .icon-fim .nomes, .footerInfo{
                     margin-left: 90px;
                     color: #b5b5b5;
                 }
                     .icon-fim .footerInfo{
-                        margin-bottom: 5px;
+                        margin-bottom: var(--spacing-xsmall);
                         color: white;
                     }
