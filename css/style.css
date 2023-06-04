@@ -55,49 +55,54 @@ body{
     justify-content: space-between;
     position: relative;
 }
-    .icon img{
-        max-width: 100%;
-        width: 75px;
-        height: auto;
-        margin-left: 350px;
+    .icon {
+        margin-left: 300px;
     }
-        .menu ul{
-            margin: 0;
-            padding-left: 0;
-            list-style: none;
+        .icon img{
+            max-width: 100%;
+            width: 75px;
+            height: auto;
         }
-            .menu ul li{
-                display: inline-block;
-                position: relative;
+        .menu{
+            margin-left: 150px;
+        }
+            .menu ul{
+                margin: 0;
+                padding-left: 0;
+                list-style: none;
             }
-                .menu ul li > a{
-                    display: block;
-                    font-size:var(--spacing-default);
-                    letter-spacing: 0;
-                    font-weight: 600;
-                    color: #20212b;
-                    padding: 0 var(--spacing-default);
-                    height: 80px;
-                    line-height: 80px;
-                    text-decoration: none;
-                    cursor: pointer;
+                .menu ul li{
+                    display: inline-block;
+                    position: relative;
                 }
-                    .button-menu button{
-                        font-size: var(--spacing-default);
-                        background-color: rgb(31, 159, 19);
-                        border: 1px solid yellow;
-                        border-radius: var(--spacing-small);
-                        width: 150px;
-                        height: 55px;
-                        margin-right: 350px;
+                    .menu ul li > a{
+                        display: block;
+                        font-size:var(--spacing-default);
+                        letter-spacing: 0;
+                        font-weight: 600;
+                        color: #20212b;
+                        padding: 0 var(--spacing-default);
+                        height: 80px;
+                        line-height: 80px;
+                        text-decoration: none;
                         cursor: pointer;
                     }
-                        .button-menu a{
-                            color: white;
-                            text-decoration: none;
-                            font-family:sans-serif;
-                            font-weight: bold;
+                        .button-menu button{
+                            font-size: var(--spacing-default);
+                            background-color: rgb(31, 159, 19);
+                            border: 1px solid yellow;
+                            border-radius: var(--spacing-small);
+                            width: 150px;
+                            height: 55px;
+                            margin-right: 200px;
+                            cursor: pointer;
                         }
+                            .button-menu a{
+                                color: white;
+                                text-decoration: none;
+                                font-family:sans-serif;
+                                font-weight: bold;
+                            }
 
 .carousel {
     position: relative;
@@ -106,18 +111,15 @@ body{
     overflow: hidden;
     border: 2px solid #686868;
 }
-
     .carousel-inner {
         display: flex;
         transition: transform 1s ease;
     }
-
         .carousel-inner img {
             width: 100%;
             height: 790px;
             object-fit: cover;
         }
-
             .carousel-prev,
             .carousel-next {
                 position: absolute;
@@ -129,11 +131,9 @@ body{
                 padding: var(--spacing-small);
                 cursor: pointer;
             }
-
                 .carousel-prev {
                     left: var(--spacing-small);
                 }
-
                     .carousel-next {
                         right: var(--spacing-small);
                     }
@@ -368,6 +368,7 @@ body{
         height: auto;
         margin-left: 49%;
         border: 2px solid white;
+        background-color: white;
         border-radius: 100%;
         padding: 2px;
     }
