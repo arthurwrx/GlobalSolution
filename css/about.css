@@ -1,6 +1,11 @@
 * { margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sobrenos{
@@ -12,22 +17,22 @@
     background-image: url("../imagens/feira-background.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 
 .titulo1{
 
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .titulo2{
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 50px;
 }
-
-
 
 .menu-estatisticas{
     background-color: red;
@@ -35,27 +40,56 @@
 .caixa1{
     
     background-color: white;
+    border-color: black;
     border-radius: 8px;
     width: 25%;
     line-height: 1.5;
+    text-align: center;
+    color:  rgb(79, 165, 79);
 }
+
 .caixa2{
     background-color: white;
     border-radius: 8px;
     width: 25%;
     line-height: 1.5;
-    
+    text-align: center;
+    color:  rgb(79, 165, 79);
 }
 
-#shakehand {
-        
-        height: 250px;
-        border: 1px solid transparent;
-        margin: 0;
+.caixa3{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+}
+.caixa4{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+}
+.cliqueaqui{
+    display:flex;
+    text-align: center;
+}
 
-    }
+.body2{ 
 
+    height: 50vw;
+}
 
+.integrantes {
 
+    display: flex;
+    justify-content: space-between;
+    align-items: end
+}
 
 
