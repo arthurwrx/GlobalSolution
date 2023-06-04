@@ -111,6 +111,47 @@ body{
                                         font-weight: bold;
                                     }
 
+.inteligencia-artificial{
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    height: 600px;
+    padding-top: var(--spacing-xlarge);
+}
+    .artificial-img img{
+        max-width: 100%;
+        margin-left: 500px;
+        float: right;
+        height: 500px;
+        border: 2px solid #686868;
+    }
+        .primeira-img{
+            margin-right: 550px;
+        }
+            .artificial-text{
+                float: left;
+                padding-top: 170px;
+                margin-left: 400px;
+                margin-right: 40px;
+            }
+                .artificial-text h1{
+                    font-size: 32px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: black;
+                    text-align: center;
+                    padding-bottom: var(--spacing-default);
+                }
+                    .artificial-text p{
+                        font-size: 23px;
+                        font-family: 'Lato', sans-serif;
+                        text-align: center;
+                        color: #484848;
+                    }
+                        .artificial-link p{
+                            padding-top: var(--spacing-medium);
+                        }
+                                    
+
 .carousel {
     position: relative;
     width: 100%;
@@ -118,10 +159,12 @@ body{
     padding-top: 10px;
     overflow: hidden;
     background-color: #e4e4e4;
+    border: 2px solid #b5b5b5;
 }
     .carousel p{
         text-align: center;
         font-weight: bold;
+        font-size: 18px;
     }
         .carousel-inner {
             display: flex;
@@ -140,8 +183,8 @@ body{
                     border: 2px solid #686868;
                     background-color: white;
                 }
-
-            
+              
+                        
 
 .footer-informacoes{
     background-color: #202020;
