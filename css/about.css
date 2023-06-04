@@ -1,0 +1,33 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sobrenos{
+
+    
+    background-color: #e4e4e4;
+    height: 600px;
+    padding-top: var(--spacing-xlarge);
+
+}
+
+.titulos {
+
+    display:flex;
+    justify-content: center;
+    
+}
+
+#shakehand {
+        
+        height: 250px;
+        border: 1px solid transparent;
+        margin: 0;
+
+
+
+    }
+
+
+
