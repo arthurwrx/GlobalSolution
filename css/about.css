@@ -7,15 +7,43 @@
 
     
     background-color: #e4e4e4;
-    height: 600px;
+    height: 1200px;
     padding-top: var(--spacing-xlarge);
-
+    background-image: url("../imagens/feira-background.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.titulos {
+.titulo1{
 
-    display:flex;
-    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.titulo2{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
+
+
+.menu-estatisticas{
+    background-color: red;
+}
+.caixa1{
+    
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+}
+.caixa2{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
     
 }
 
@@ -25,9 +53,9 @@
         border: 1px solid transparent;
         margin: 0;
 
-
-
     }
+
+
 
 
 
