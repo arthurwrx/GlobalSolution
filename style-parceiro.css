@@ -111,14 +111,14 @@ body{
                                         font-weight: bold;
                                     }
 
-.inteligencia-artificial{
+.primeira-informacao{
     width: 100%;
     background-color: #e4e4e4;
     display: flex;
     height: 600px;
     padding-top: var(--spacing-xlarge);
 }
-    .artificial-img img{
+    .primeira-img img{
         max-width: 100%;
         margin-left: 500px;
         float: right;
@@ -128,29 +128,62 @@ body{
         .primeira-img{
             margin-right: 550px;
         }
-            .artificial-text{
+            .primeira-text{
                 float: left;
                 padding-top: 170px;
                 margin-left: 400px;
-                margin-right: 40px;
             }
-                .artificial-text h1{
+                .primeira-text h1{
                     font-size: 32px;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     color: black;
                     text-align: center;
                     padding-bottom: var(--spacing-default);
                 }
-                    .artificial-text p{
+                    .primeira-text p{
                         font-size: 23px;
                         font-family: 'Lato', sans-serif;
                         text-align: center;
                         color: #484848;
                     }
-                        .artificial-link p{
-                            padding-top: var(--spacing-medium);
-                        }
-                                    
+     
+.segunda-informacao{
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    height: 600px;
+    padding-top: var(--spacing-xlarge);
+}
+    .segunda-img img{
+        max-width: 100%;
+        margin-left: 440px;
+        float: left;
+        height: 500px;
+        border: 2px solid #686868;
+    }
+        .segunda-text h1{
+            font-size: 32px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: black;
+            padding-top: 120px;
+            padding-bottom: var(--spacing-large);
+            padding-left: 430px;
+            padding-right: 430px;
+        }
+            .segunda-text p{
+                font-size: 23px;
+                font-family: 'Lato', sans-serif;
+                text-align: center;
+                color: #484848;
+                padding-left: 430px;
+                padding-right: 430px;
+            }
+            .segunda-link p{
+                padding-top: var(--spacing-medium);
+            }
+
+                                            
 
 .carousel {
     position: relative;
@@ -160,6 +193,8 @@ body{
     overflow: hidden;
     background-color: #e4e4e4;
     border: 2px solid #b5b5b5;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
     .carousel p{
         text-align: center;
