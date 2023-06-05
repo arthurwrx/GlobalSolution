@@ -62,10 +62,10 @@ body{
         align-items: center;
     }
         .icon p{
-            margin-top: 5px;
             margin-left: 5px;
-            font-family: sans-serif;
-            font-weight: bold;
+            font-family: 'Rubik Puddles', cursive;;
+            font-size: 20px;
+            color: rgb(52, 113, 52);
         }
             .icon img{
                 max-width: 100%;
@@ -246,7 +246,6 @@ body{
             .carousel-inner a{
                 margin-left: 40px;
                 margin-right: 40px;
-               
             }
                 .carousel-inner img {
                     max-width: 100%;
@@ -331,6 +330,10 @@ body{
             font-size: var(--spacing-default);
             padding-top: var(--spacing-xsmall);
         }
+            .footer-links a{
+                text-decoration: none;
+                color: #b5b5b5;
+            }
 
 .footer-texto{
     margin-left: auto;

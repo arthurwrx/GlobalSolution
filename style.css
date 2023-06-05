@@ -7,6 +7,7 @@
 :root {
     --color-main: white;
     --color-title: white;
+    --color-name-site: rgb(52, 113, 52);
 
     --color-link-header: #20212b;
     
@@ -326,12 +327,15 @@ body{
         font-size: 18px;
     }
         .footer-links ul li{
-            color: #b5b5b5;
             margin-top: 6px;
             cursor: pointer;
             font-size: var(--spacing-default);
             padding-top: var(--spacing-xsmall);
         }
+            .footer-links a{
+                text-decoration: none;
+                color: #b5b5b5;
+            }
 
 .footer-texto{
     margin-left: auto;
