@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html{
+    display: flex;
+}
+
 img{
     max-width: 100%;
 }
@@ -83,44 +87,49 @@ body{
     text-align: center;
 }
 
-.body2{ 
-    margin-top: 50px;
-    height: 80vh;
+.our-team{ 
+    padding-top: 35px;
+    height: 60vh;
+    background-color: white
+}
+
+.our-team h1 {
+        text-align: center;
 }
 
 .integrantes {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    list-style: none;
+    justify-content: center;
 }
 
-.integrantes h1 {}
-
-.int1{
-    border: 1px solid black;
-}
-.int1 img {
-    height: 225px;
+.integrantes img {
+    height: 300px;
     width: 225px;
+    border-radius: 5px;
 }
 
-
-.barra{
-    background-color: red;
-    color: white;
-    height: 100px;
-    width: 100%;
-    font-size: var(--spacing-medium);
-    display: flex;
-    justify-content: space-between;
+.integrantes article {
+    
+    text-align: center;
 }
+
+.integrantes2{
+
+    justify-content: center;
+}
+
+.int2{
+
+    padding-left: 50px;
+}
+
 
 .icone-planta{
     max-width: 50px;
     width: 75px;
     height: auto;
-    
 }
 
 
