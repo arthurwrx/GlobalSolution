@@ -1,6 +1,7 @@
 * { margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html{
@@ -27,6 +28,8 @@ body{
     
 }
 
+
+
 .titulo1{
 
     display: flex;
@@ -40,6 +43,14 @@ body{
     justify-content: center;
     margin-bottom: 50px;
 }
+
+.titulo3{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
 
 .menu-estatisticas{
     background-color: red;
@@ -79,8 +90,22 @@ body{
     width: 25%;
     line-height: 1.5;
     text-align: center;
+    margin-left: 250px;
+    margin-top: 225px;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa5{
+
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
     margin-left: 50px;
     color:  rgb(79, 165, 79);
+    margin-top: 80px;
+
 }
 .cliqueaqui{
     display:flex;
@@ -90,55 +115,41 @@ body{
 .our-team{ 
     padding-top: 35px;
     height: 60vh;
-    background-color: white
+    background-image: url("../imagens/agro.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
+
+
 
 .our-team h1 {
         text-align: center;
+        border: 2px solid white;
+        background-color: white;
 }
 
-.integrantes {
+
+.team {
     margin-top: 50px;
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .integrantes img {
     height: 300px;
     width: 225px;
     border-radius: 5px;
+    
 }
 
 .integrantes article {
-    
+    color: black;
     text-align: center;
-}
-
-.integrantes2{
-
-    justify-content: center;
-}
-
-.int2{
-
-    padding-left: 50px;
-}
-
-
-.icone-planta{
-    max-width: 50px;
-    width: 75px;
-    height: auto;
-}
-
-
-.itens-header{
-
-height: 120px;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
-
+    border-radius: 3px;
+    border-color: green;
+    background-color: white;
 }
