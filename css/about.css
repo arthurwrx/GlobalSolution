@@ -1,6 +1,9 @@
 * { margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img{
     max-width: 100%;
 }
 
@@ -81,15 +84,52 @@ body{
 }
 
 .body2{ 
-
-    height: 50vw;
+    margin-top: 50px;
+    height: 80vh;
 }
 
 .integrantes {
-
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: end
+    align-items: end;
+}
+
+.integrantes h1 {}
+
+.int1{
+    border: 1px solid black;
+}
+.int1 img {
+    height: 225px;
+    width: 225px;
 }
 
 
+.barra{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: var(--spacing-medium);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone-planta{
+    max-width: 50px;
+    width: 75px;
+    height: auto;
+    
+}
+
+
+.itens-header{
+
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+}
