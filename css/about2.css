@@ -1,0 +1,142 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobrenos{
+
+    
+    background-color: #e4e4e4;
+    height: 1200px;
+    padding-top: var(--spacing-xlarge);
+    background-image: url("../imagens/feira-background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.titulo1{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu-estatisticas{
+    background-color: red;
+}
+.caixa1{
+    
+    background-color: white;
+    border-color: black;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa2{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa3{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+}
+.caixa4{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+}
+.cliqueaqui{
+    display:flex;
+    text-align: center;
+}
+
+.body2{ 
+    margin-top: 50px;
+    height: 60vh;
+}
+
+.integrantes {
+    margin-top: 50px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.integrantes img {
+    height: 300px;
+    width: 225px;
+    justify-content: center;
+}
+
+.integrantes article {
+
+    text-align: center;
+}
+
+.int2{
+
+    width: 250px;
+}
+
+
+.barra{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: var(--spacing-medium);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone-planta{
+    max-width: 50px;
+    width: 75px;
+    height: auto;
+    
+}
+
+
+.itens-header{
+
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+}
