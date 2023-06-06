@@ -150,6 +150,41 @@ body{
                                     padding-left: 530px;
                                     
                                 }
+                                .adubos{
+                                    width: 100%;
+                                    background-color: #e4e4e4;
+                                    display: flex;
+                                    height: 600px;
+                                    padding-top: var(--spacing-xlarge)
+                                }
+                                .adubos-img img{
+                                    max-width: 100%;
+                                    margin-left: 500px;
+                                    float: left;
+                                    height: 500px;
+                                    border: 2px solid #686868;
+                                   
+                                
+                                }
+                                .adubos-text{
+                                    margin-right: 300px;
+                                }
+                                .adubos-text h1{
+                                    font-size: 32px;
+                                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    text-align: center;
+                                    color: black;
+                                    padding-top: 70px;
+                                    padding-bottom: var(--spacing-large);
+                                    padding-left: 530px;
+                                }
+                                .adubos-text p{
+                                    font-size: 23px;
+                                    font-family: 'Lato', sans-serif;
+                                    text-align: center;
+                                    color: black;
+                                    padding-left: 530px;
+                                }
                                 
 
 
