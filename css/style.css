@@ -164,13 +164,13 @@ body{
 }
     .agricultura-img img{
         max-width: 100%;
-        margin-left: 600px;
+        margin-left: 500px;
         float: left;
         height: 500px;
         border: 2px solid #686868;
     }
     .agricultura-text{
-        margin-right: 550px;
+        margin-right: 500px;
     }
         .agricultura-text h1{
             font-size: 32px;
@@ -206,7 +206,7 @@ body{
     .menu-estatisticas{
         display: flex;
         text-align: center;
-        padding: var(--spacing-xlarge) 0 0 650px;
+        padding: var(--spacing-xlarge) 0 0 550px;
     }
         .menu-estatisticas h1{
             font-size: 25px;
@@ -243,16 +243,15 @@ body{
     .artificial-img img{
         max-width: 100%;
         height: auto;
-        margin-right: 600px;
+        margin-right: 500px;
         float: right;
         border: 2px solid #686868;
     }
         .artificial-text{
             float: right;
-            padding-top: 120px;
-            padding-right: 500px;
-            padding-left: 500px;
-            margin-left: 50px;
+            padding-top: 90px;
+            margin-right: 500px;
+            margin-left: 500px;
         }
             .artificial-text h1{
                 font-size: 32px;
