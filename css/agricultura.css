@@ -115,164 +115,59 @@ body{
                                     font-family:sans-serif;
                                     font-weight: bold;
                                 }
-
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 790px;
-    overflow: hidden;
-    border: 2px solid #686868;
-}
-
-    .carousel-inner {
-        display: flex;
-        transition: transform 1s ease;
-    }
-
-        .carousel-inner img {
-            width: 100%;
-            height: 790px;
-            object-fit: cover;
-        }
-
-            .carousel-prev,
-            .carousel-next {
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                background-color: black;
-                border-radius: 100%;
-                color: white;
-                padding: var(--spacing-small);
-                cursor: pointer;
-            }
-
-                .carousel-prev {
-                    left: var(--spacing-small);
-                }
-
-                    .carousel-next {
-                        right: var(--spacing-small);
-                    }
-
-.agricultura-sustentavel{
-    width: 100%;
-    background-color: #e4e4e4;
-    display: flex;
-    height: 600px;
-    padding-top: var(--spacing-xlarge);
-}
-    .agricultura-img img{
-        max-width: 100%;
-        margin-left: 500px;
-        float: left;
-        height: 500px;
-        border: 2px solid #686868;
-    }
-    .agricultura-text{
-        margin-right: 500px;
-    }
-        .agricultura-text h1{
-            font-size: 32px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-            color: black;
-            padding-top: 120px;
-            padding-bottom: var(--spacing-large);
-            padding-left: 430px;
-        }
-            .agricultura-text p{
-                font-size: 23px;
-                font-family: 'Lato', sans-serif;
-                text-align: center;
-                color: #484848;
-                padding-left: 430px;
-            }
-            .agricultura-link p{
-                padding-top: var(--spacing-medium);
-            }
-                .agricultura-link a{
-                    text-decoration: none;
-                    color: rgb(31, 159, 19);
-                }
-                
-.section-estatisticas{
-    background-color: rgb(31, 159, 19);
-    color: white;
-    height: 150px;
-    width: 100%;
-    font-size: var(--spacing-medium);
-}
-    .menu-estatisticas{
-        display: flex;
-        text-align: center;
-        padding: var(--spacing-xlarge) 0 0 550px;
-    }
-        .menu-estatisticas h1{
-            font-size: 25px;
-        }
-            .primeira-estatistica{
-                padding-right: 70px;
-            }
-                .primeira-estatistica p{
-                    font-size: 14px;
-                    color: rgba(255, 255, 255, 0.759);
-                    line-height: 1;
-                }
-                    .segunda-estatistica{
-                        padding-right: 70px;
-                    }
-                        .segunda-estatistica p{
-                            font-size: 14px;
-                            color: rgba(255, 255, 255, 0.759);
-                            line-height: 1;
-                        }
-                                .terceira-estatistica p{
-                                    font-size: 14px;
-                                    color: rgba(255, 255, 255, 0.759);
-                                    line-height: 1;
+                                .rodizio-culturas{
+                                    width: 100%;
+                                    background-color: white;
+                                    display: flex;
+                                    height: 600px;
+                                    padding-top: var(--spacing-xlarge);
                                 }
+                                .rodizio-img img{
+                                    max-width: 100%;
+                                    margin-left: 500px;
+                                    float: left;
+                                    height: 500px;
+                                    border: 2px solid #686868;
 
-.inteligencia-artificial{
-    width: 100%;
-    background-color: #e4e4e4;
-    display: flex;
-    height: 600px;
-    padding-top: var(--spacing-xlarge);
-}
-    .artificial-img img{
-        max-width: 100%;
-        height: auto;
-        margin-right: 500px;
-        float: right;
-        border: 2px solid #686868;
-    }
-        .artificial-text{
-            float: right;
-            padding-top: 90px;
-            margin-right: 500px;
-            margin-left: 500px;
-        }
-            .artificial-text h1{
-                font-size: 32px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color: black;
-                text-align: center;
-                padding-bottom: var(--spacing-large);
-            }
-                .artificial-text p{
-                    font-size: 23px;
-                    font-family: 'Lato', sans-serif;
-                    text-align: center;
-                    color: #484848;
-                }
-                    .artificial-link p{
-                        padding-top: var(--spacing-medium);
-                    }
-                        .artificial-link a{
-                            text-decoration: none;
-                            color: rgb(31, 159, 19);
-                        }
+                                }
+                                .rodizio-text {
+                                    margin-right: 300px;
+                                }
+                                .rodizio-text h1{
+                                    font-size: 32px;
+                                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    text-align: center;
+                                    color: black;
+                                    padding-top: 70px;
+                                    padding-bottom: var(--spacing-large);
+                                    padding-left: 530px;
+                                }
+                                .rodizio-text p{
+                                    font-size: 23px;
+                                    font-family: 'Lato', sans-serif;
+                                    text-align: center;
+                                    color: black;
+                                    padding-left: 530px;
+                                    
+                                }
+                                
+
+
+
+
+    
+
+        
+
+            
+
+                    
+                
+
+
+
+   
+               
 
 .footer-informacoes{
     background-color: #202020;
@@ -389,7 +284,6 @@ body{
         background-color: white;
         border-radius: 100%;
         padding: 2px;
-        
     }
         .icon-fim .footerInfo{
             margin-top: var(--spacing-large);
