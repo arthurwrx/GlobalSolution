@@ -389,6 +389,7 @@ body{
         background-color: white;
         border-radius: 100%;
         padding: 2px;
+        
     }
         .icon-fim .footerInfo{
             margin-top: var(--spacing-large);
