@@ -36,6 +36,14 @@
     --spacing-xlarge: 50px;
 }
 
+@media (min-width:768) and (max-width:1023){
+    
+}
+
+html{
+    display: flex;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -44,8 +52,6 @@ body{
     width: 100%;
     padding-right: var(--spacing-default);
     padding-left: var(--spacing-default);
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .itens-header{
@@ -55,49 +61,60 @@ body{
     justify-content: space-between;
     position: relative;
 }
-    .icon img{
-        max-width: 100%;
-        width: 75px;
-        height: auto;
-        margin-left: 350px;
+    .icon{
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
     }
-        .menu ul{
-            margin: 0;
-            padding-left: 0;
-            list-style: none;
+        .icon p{
+            margin-left: 5px;
+            font-family: 'Rubik Puddles', cursive;;
+            font-size: 20px;
+            color: rgb(52, 113, 52);
         }
-            .menu ul li{
-                display: inline-block;
-                position: relative;
+            .icon img{
+                max-width: 100%;
+                width: 75px;
+                height: auto;
+                margin-bottom: 15px;
             }
-                .menu ul li > a{
-                    display: block;
-                    font-size:var(--spacing-default);
-                    letter-spacing: 0;
-                    font-weight: 600;
-                    color: #20212b;
-                    padding: 0 var(--spacing-default);
-                    height: 80px;
-                    line-height: 80px;
-                    text-decoration: none;
-                    cursor: pointer;
+                .menu ul{
+                    margin: 0;
+                    padding-left: 0;
+                    list-style: none;
                 }
-                    .button-menu button{
-                        font-size: var(--spacing-default);
-                        background-color: rgb(31, 159, 19);
-                        border: 1px solid yellow;
-                        border-radius: var(--spacing-small);
-                        width: 150px;
-                        height: 55px;
-                        margin-right: 350px;
-                        cursor: pointer;
+                    .menu ul li{
+                        display: inline-block;
+                        position: relative;
                     }
-                        .button-menu a{
-                            color: white;
+                        .menu ul li > a{
+                            display: block;
+                            font-size:var(--spacing-default);
+                            letter-spacing: 0;
+                            font-weight: 600;
+                            color: #20212b;
+                            padding: 0 var(--spacing-default);
+                            height: 80px;
+                            line-height: 80px;
                             text-decoration: none;
-                            font-family:sans-serif;
-                            font-weight: bold;
+                            cursor: pointer;
                         }
+                            .button-menu button{
+                                font-size: var(--spacing-default);
+                                background-color: rgb(31, 159, 19);
+                                border: 1px solid yellow;
+                                border-radius: var(--spacing-small);
+                                width: 150px;
+                                height: 55px;
+                                margin-right: 200px;
+                                cursor: pointer;
+                            }
+                                .button-menu a{
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family:sans-serif;
+                                    font-weight: bold;
+                                }
 
 .carousel {
     position: relative;
@@ -147,10 +164,13 @@ body{
 }
     .agricultura-img img{
         max-width: 100%;
-        margin-left: 500px;
+        margin-left: 600px;
         float: left;
         height: 500px;
         border: 2px solid #686868;
+    }
+    .agricultura-text{
+        margin-right: 550px;
     }
         .agricultura-text h1{
             font-size: 32px;
@@ -160,7 +180,6 @@ body{
             padding-top: 120px;
             padding-bottom: var(--spacing-large);
             padding-left: 430px;
-            padding-right: 430px;
         }
             .agricultura-text p{
                 font-size: 23px;
@@ -168,7 +187,6 @@ body{
                 text-align: center;
                 color: #484848;
                 padding-left: 430px;
-                padding-right: 430px;
             }
             .agricultura-link p{
                 padding-top: var(--spacing-medium);
@@ -188,7 +206,7 @@ body{
     .menu-estatisticas{
         display: flex;
         text-align: center;
-        padding: var(--spacing-xlarge) 0 0 550px;
+        padding: var(--spacing-xlarge) 0 0 650px;
     }
         .menu-estatisticas h1{
             font-size: 25px;
@@ -209,11 +227,11 @@ body{
                             color: rgba(255, 255, 255, 0.759);
                             line-height: 1;
                         }
-                            .terceira-estatistica p{
-                                font-size: 14px;
-                                color: rgba(255, 255, 255, 0.759);
-                                line-height: 1;
-                            }
+                                .terceira-estatistica p{
+                                    font-size: 14px;
+                                    color: rgba(255, 255, 255, 0.759);
+                                    line-height: 1;
+                                }
 
 .inteligencia-artificial{
     width: 100%;
@@ -224,40 +242,38 @@ body{
 }
     .artificial-img img{
         max-width: 100%;
-        margin-left: 500px;
+        height: auto;
+        margin-right: 600px;
         float: right;
-        height: 500px;
         border: 2px solid #686868;
     }
-        .artificial-img{
-            margin-right: 450px;
+        .artificial-text{
+            float: right;
+            padding-top: 120px;
+            padding-right: 500px;
+            padding-left: 500px;
+            margin-left: 50px;
         }
-            .artificial-text{
-                float: left;
-                padding-top: 120px;
+            .artificial-text h1{
+                font-size: 32px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: black;
+                text-align: center;
+                padding-bottom: var(--spacing-large);
             }
-                .artificial-text h1{
-                    font-size: 32px;
-                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    color: black;
+                .artificial-text p{
+                    font-size: 23px;
+                    font-family: 'Lato', sans-serif;
                     text-align: center;
-                    padding-bottom: var(--spacing-large);
-                    margin-left: 450px;
+                    color: #484848;
                 }
-                    .artificial-text p{
-                        font-size: 23px;
-                        font-family: 'Lato', sans-serif;
-                        text-align: center;
-                        color: #484848;
-                        margin-left: 470px;
+                    .artificial-link p{
+                        padding-top: var(--spacing-medium);
                     }
-                        .artificial-link p{
-                            padding-top: var(--spacing-medium);
+                        .artificial-link a{
+                            text-decoration: none;
+                            color: rgb(31, 159, 19);
                         }
-                            .artificial-link a{
-                                text-decoration: none;
-                                color: rgb(31, 159, 19);
-                            }
 
 .footer-informacoes{
     background-color: #202020;
@@ -318,7 +334,7 @@ body{
 .footer-links{
     margin-left: var(--spacing-xlarge);
     padding-top: 70px;
-    width: 180px;
+    width: 220px;
 }
     .footer-links ul{
         list-style: none;
@@ -367,7 +383,7 @@ body{
         width: 60px;
         height: auto;
         margin-left: 49%;
-        border: 2px solid white;
+        background-color: white;
         border-radius: 100%;
         padding: 2px;
     }
