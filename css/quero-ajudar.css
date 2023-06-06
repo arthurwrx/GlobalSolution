@@ -35,3 +35,70 @@
     --spacing-large: 30px;
     --spacing-xlarge: 50px;
 }
+
+html{
+    display: flex;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding-right: var(--spacing-default);
+    padding-left: var(--spacing-default);
+}
+
+.itens-header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.icon p{
+    margin-left: 5px;
+    font-family: 'Rubik Puddles', cursive;;
+    font-size: 20px;
+    color: rgb(52, 113, 52);
+}
+
+.icon img{
+    max-width: 100%;
+    width: 75px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.menu ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    padding-right: 240px;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li > a{
+    display: block;
+    font-size:var(--spacing-default);
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #20212b;
+    padding: 0 var(--spacing-default);
+    height: 80px;
+    line-height: 80px;
+    text-decoration: none;
+    cursor: pointer;
+}
