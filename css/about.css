@@ -1,0 +1,155 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobrenos{
+
+    
+    background-color: #e4e4e4;
+    height: 1200px;
+    padding-top: var(--spacing-xlarge);
+    background-image: url("../imagens/feira-background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.titulo1{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.titulo3{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
+
+.menu-estatisticas{
+    background-color: red;
+}
+.caixa1{
+    
+    background-color: white;
+    border-color: black;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa2{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa3{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+}
+.caixa4{
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 225px;
+    color:  rgb(79, 165, 79);
+}
+
+.caixa5{
+
+    background-color: white;
+    border-radius: 8px;
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 50px;
+    color:  rgb(79, 165, 79);
+    margin-top: 80px;
+
+}
+.cliqueaqui{
+    display:flex;
+    text-align: center;
+}
+
+.our-team{ 
+    padding-top: 35px;
+    height: 60vh;
+    background-image: url("../imagens/agro.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.our-team h1 {
+        text-align: center;
+        border: 2px solid white;
+        background-color: white;
+}
+
+
+.team {
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.integrantes img {
+    height: 300px;
+    width: 225px;
+    border-radius: 5px;
+    
+}
+
+.integrantes article {
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+    border-color: green;
+    background-color: white;
+}
