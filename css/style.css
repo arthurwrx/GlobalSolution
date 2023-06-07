@@ -108,7 +108,7 @@ body{
                                     font-weight: bold;
                                 }
 
-.carousel {
+    .carousel {
     position: relative;
     width: 100%;
     height: 790px;
@@ -382,189 +382,196 @@ body{
                         margin-bottom: var(--spacing-xsmall);
                         color: white;
                     }
+    
     @media (min-width:768px) and (max-width:1023px){
 
-        .menu ul{
-            display: none;
+    .menu ul{
+        display: none;
+    }
+
+    .icon {
+        margin-left: 20px;
+    }
+        .icon p{
+            font-size: 18px;
         }
-    
-        .icon {
-            margin-left: 20px;
-        }
-            .icon p{
-                font-size: 18px;
+            .icon img{
+                width: 60px;
+                margin-bottom: 0;
             }
-                .icon img{
-                    width: 60px;
-                    margin-bottom: 0;
+
+    .button-menu button{
+        font-size: 13px;
+        width: 100px;
+        height: 50px;
+        margin-right: 50px;
+    }
+
+    .carousel {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        border: 2px solid #686868;
+    }
+        .carousel-inner {
+            display: flex;
+            transition: transform 1s ease;
+        }
+            .carousel-inner img {
+                width: 100%;
+                width: 765px;
+                height: 790px;
+                object-fit: cover;
+            }
+                .carousel-prev,
+                .carousel-next {
+                    display: none;
                 }
+
+    .agricultura-sustentavel{
+        width: 100%;
+        height: 500px;
+    }
+        .agricultura-img{
+            padding: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+            .agricultura-img img{
+                width: 300px;
+                height: auto;
+            }
+                .agricultura-img h1{
+                    font-size: 25px;
+                    padding-bottom: var(--spacing-default);
+                    padding-left: 10px;
+                }
+                    .agricultura-img p{
+                        font-size: 21px;
+                        padding-left: 10px;
+                    }
+                        .agricultura-img a{
+                            text-decoration: none;
+                            color: rgb(31, 159, 19);
+                        }
     
-        .button-menu button{
-            font-size: 13px;
-            width: 100px;
-            height: 50px;
+    .section-estatisticas{
+        height: 110px;
+        width: 100%;
+    }
+        .menu-estatisticas{
             margin-right: 50px;
+            padding-top: 25px;
         }
-        
-        .primeira-informacao{
-            width: 100%;
-            height: 500px;
-        }
-            .primeira-img{
-                padding: 50px;
-                margin-left: 10px;
-                margin-right: 10px;
+            .menu-estatisticas h1{
+                font-size: 19px;
             }
-                .primeira-img img{
-                    width: 300px;
-                    height: auto;
+                .primeira-estatistica{
+                    padding-left: 35px;
                 }
-                    .primeira-img h1{
-                        font-size: 25px;
-                        padding-bottom: var(--spacing-default);
-                        padding-left: 10px;
+                    .primeira-estatistica p{
+                        font-size: 12px;
+                        padding-top: 5px;
+                        line-height: 0.9;
                     }
-                        .primeira-img p{
-                            font-size: 21px;
-                            padding-left: 10px;
+                        .segunda-estatistica{
+                            padding-left: 50px;
                         }
-                            .primeira-img a{
-                                text-decoration: none;
-                                color: rgb(31, 159, 19);
+                            .segunda-estatistica p{
+                                font-size: 12px;
+                                padding-top: 5px;
+                                line-height: 0.9;
                             }
-        
-        .section-estatisticas{
-            height: 130px;
-            width: 100%;
-        }
-            .menu-estatisticas{
-                margin-right: 50px;
-                padding-top: 20px;
-            }
-                .menu-estatisticas h1{
-                    font-size: 19px;
-                }
-                    .primeira-estatistica{
-                        padding-left: 35px;
-                    }
-                        .primeira-estatistica p{
-                            font-size: 12px;
-                            padding-top: 5px;
-                            line-height: 0.9;
-                        }
-                            .segunda-estatistica{
-                                padding-left: 50px;
-                            }
-                                .segunda-estatistica p{
-                                    font-size: 12px;
-                                    padding-top: 5px;
-                                    line-height: 0.9;
+                                .terceira-estatistica{
+                                    padding-left: 50px;
                                 }
-                                    .terceira-estatistica{
-                                        padding-left: 50px;
+                                    .terceira-estatistica p{
+                                        font-size: 12px;
+                                        padding-top: 5px;
+                                        line-height: 0.9;
                                     }
-                                        .terceira-estatistica p{
-                                            font-size: 12px;
-                                            padding-top: 5px;
-                                            line-height: 0.9;
-                                        }
-    
-        .segunda-informacao{
-            width: 100%;
-            height: 500px;
+
+    .inteligencia-artificial{
+        width: 100%;
+        height: 500px;
+    }
+        .artificial-img{
+            padding: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
         }
-            .segunda-img{
-                padding: 50px;
-                margin-left: 10px;
-                margin-right: 10px;
+            .artificial-img img{
+                width: 300px;
+                height: auto;
             }
-                .segunda-img img{
-                    width: 300px;
-                    height: auto;
+                .artificial-img h1{
+                    font-size: 25px;
+                    padding-bottom: var(--spacing-default);
+                    padding-left: 10px;
                 }
-                    .segunda-img h1{
-                        font-size: 25px;
-                        padding-bottom: var(--spacing-default);
+                    .artificial-img p{
+                        font-size: 21px;
                         padding-left: 10px;
                     }
-                        .segunda-img p{
-                            font-size: 21px;
-                            padding-left: 10px;
+                        .artificial-img a{
+                            text-decoration: none;
+                            color: rgb(31, 159, 19);
                         }
-                            .segunda-img a{
-                                text-decoration: none;
-                                color: rgb(31, 159, 19);
-                            }
-    
-        .carousel {
-            width: 100%;
-            height: 200px;
+
+    .footer-redes{
+        margin-left: 30px;
+    }
+        .footer-redes ul{
+            font-size: 16px;
         }
-            .carousel p{
-                font-size: 18px;
+
+    .footer-contatos{
+        margin-left: var(--spacing-large);
+        padding-top: 70px;
+    }
+        .lista-contatos {
+            font-size: 16px;
+            color: white;
+        }
+
+    .footer-links{
+        display: none;
+    }
+
+    .footer-texto{
+        margin-left: 170px;
+        margin-right: var(--spacing-xsmall);
+        padding-top: 100px;
+        color: #b5b5b5;
+        white-space: pre-line;   
+    }
+        .link-texto{
+            text-align: center;
+            margin-top: var(--spacing-small);
+        }
+            .link-texto button{
+                background-color: rgb(31, 159, 19);
+                padding: var(--spacing-small);
+                border-radius: var(--spacing-xsmall);
+                border: 0;
+                cursor: pointer;
             }
-                    .carousel-inner a{
-                        margin-left: 5px;
-                    }
-                        .carousel-inner img {
-                            max-width: 100%;
-                            width: 148px;
-                            height: 90px;
-                        }
-    
-        .footer-redes{
-            margin-left: 30px;
-        }
-            .footer-redes ul{
-                font-size: 16px;
-            }
-    
-        .footer-contatos{
-            margin-left: var(--spacing-large);
-            padding-top: 70px;
-        }
-            .lista-contatos {
-                font-size: 16px;
-                color: white;
-            }
-    
-        .footer-links{
-            display: none;
-        }
-    
-        .footer-texto{
-            margin-left: 170px;
-            margin-right: var(--spacing-xsmall);
-            padding-top: 35px;
-            color: #b5b5b5;
-            white-space: pre-line;   
-        }
-            .link-texto{
-                text-align: center;
-                margin-top: var(--spacing-small);
-            }
-                .link-texto button{
-                    background-color: rgb(31, 159, 19);
-                    padding: var(--spacing-small);
-                    border-radius: var(--spacing-xsmall);
-                    border: 0;
-                    cursor: pointer;
+                .link-texto a{
+                    color: white;
+                    text-decoration: none;
+                    height: var(--spacing-xlarge);
                 }
-                    .link-texto a{
-                        color: white;
-                        text-decoration: none;
-                        height: var(--spacing-xlarge);
-                    }
-        
     
-        .icon-fim img{
-            width: 50px;
-            margin-left: 47%;
+
+    .icon-fim img{
+        width: 50px;
+        margin-left: 47%;
+    }
+        .icon-fim .footerInfo{
+            margin-top: var(--spacing-xsmall);
         }
-            .icon-fim .footerInfo{
-                margin-top: var(--spacing-xsmall);
-            }
-                    .icon-fim .nomes, .footerInfo{
-                        margin-left: 20px;
-                    }
+                .icon-fim .nomes, .footerInfo{
+                    margin-left: 20px;
+                }
     }
