@@ -66,7 +66,7 @@ body{
 .icon{
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .icon p{
@@ -124,8 +124,6 @@ body{
 }
 
 .quero-ajudar-img {
-    /* padding: 50px; */
-    /* margin-left: 300px; */
     margin-right: 50px;
     display: flex;
     align-items: center;
@@ -453,12 +451,12 @@ body{
 
     .img-pessoas-abracando {
         max-width: 100%;
-        width: 150px;
+        width: 170px;
         float: left;
-        height: 150px;
+        height: 200px;
         border: 2px solid #b5b5b5;
-        margin-left: 0px;
-        margin-top: 20px;
+        margin-left: 10px;
+        margin-top: 160px;
     }
 
     .quero-ajudar-h1 {
@@ -466,7 +464,7 @@ body{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         color: black;
-        padding-top: 70px;
+        padding-top: 160px;
         padding-bottom: 15px;
     }
 
@@ -477,9 +475,173 @@ body{
         margin-left: 20px;
         color: #484848;
     }
+
+    .enviar {
+        font-size: var(--spacing-default);
+        background-color: rgb(31, 159, 19);
+        border: 1px solid yellow;
+        border-radius: var(--spacing-small);
+        width: 100px;
+        height: 45px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
 
-}
+    .menu ul{
+        display: none;
+    }
+
+    .icon {
+        margin-left: 20px;
+    }
+    .icon p{
+        font-size: 18px;
+    }
+    .icon img{
+        width: 60px;
+        margin-bottom: 0;
+    }
+
+    .form-quero-ajudar {
+        margin-left: 60px;
+    }
+
+    .enviar {
+        margin-left: 85px;
+    }
+
+    .quero-ajudar-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .quero-ajudar-h1 {
+        font-size: 32px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: black;
+        padding-bottom: var(--spacing-large);
+        padding-top: 60px;
+    }
+
+    .quero-ajudar p {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #484848;
+        margin-left: 10px;
+    }
+
+    .img-pessoas-abracando {
+        max-width: 100%;
+        width: 300px;
+        float: left;
+        height: 300px;
+        border: 2px solid #b5b5b5;
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+
+    #nome, #sobrenome, #idade, #email, #telefone, #sexo, #estado, #cidade, #bairro, #disponibilidade {
+        width: 130px;
+        height: 20px;
+        border-radius: 5px;
+        border: 2px solid rgb(31, 159, 19);
+    }
+
+    .footer-redes{
+        margin-left: 30px;
+    }
+        .footer-redes ul{
+            font-size: 16px;
+        }
+
+    .footer-contatos{
+        margin-left: var(--spacing-large);
+        padding-top: 70px;
+    }
+        .lista-contatos {
+            font-size: 16px;
+            color: white;
+        }
+
+    .footer-links{
+        display: none;
+    }
+
+    .footer-texto{
+        padding-left: 30px; 
+    }
+    .link-texto{
+        text-align: center;
+        margin-top: var(--spacing-small);
+    }
+    .link-texto button{
+        background-color: rgb(31, 159, 19);
+        padding: var(--spacing-small);
+        border-radius: var(--spacing-xsmall);
+        border: 0;
+        cursor: pointer;
+    }
+    .link-texto a{
+        color: white;
+        text-decoration: none;
+        height: var(--spacing-xlarge);
+        }
+    
+
+    .icon-fim img{
+        width: 50px;
+        margin-left: 47%;
+    }
+    .icon-fim .footerInfo{
+        margin-top: var(--spacing-xsmall);
+    }
+    .icon-fim .nomes, .footerInfo{
+        margin-left: 20px;
+    }
+    }
+
+    @media (min-width: 1024px) and (max-width:1439px) {
+
+    .icon{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        }
+
+    .menu ul{
+        margin: 0;
+        padding-left: 40px;
+        list-style: none;
+        }
+
+    .menu ul li > a {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    }
+
+    @media (min-width:1440px) and (max-width:1900px){
+    .icon{
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        }
+
+    .menu ul{
+        font-size: 12;
+        margin: 0;
+        padding-left: 40px;
+        list-style: none;
+        }
+    }
+
+
+    
+
  
